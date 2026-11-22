@@ -16,20 +16,16 @@ body {
 ===================================== */
 
 :root {
-    --bg: #85858E;
-    --surface: #777781;
-    --surface-hover: #686D79;
-
-    --text: #292B32;
-    --muted: #41444D;
-    --border: #96949A;
-
-    --accent: #D6A18B;
-    --accent-dark: #9C7164;
-
+    --bg: #171717;
+    --surface: #222222;
+    --surface-hover: #363636;
+    --text: #F5F1E9;
+    --muted: #B5B0A7;
+    --border: #41403D;
+    --accent: #D6BD91;
+    --accent-dark: #BFA477;
     --font-heading: 'Space Grotesk', sans-serif;
     --font-body: 'DM Sans', sans-serif;
-
     --container: 1100px;
     --padding: 8%;
 }
@@ -91,15 +87,15 @@ body:has(.hero) .navbar {
 }
 
 body:has(.hero) .navbar .logo {
-    color: #F5F0EA;
+    color: #F5F1E9;
 }
 
 body:has(.hero) .navbar .logo span {
-    color: #D6C8BC;
+    color: #D6BD91;
 }
 
 body:has(.hero) .navbar .nav-links a {
-    color: #E5DCD4;
+    color: #F5F1E9;
 }
 
 body:has(.hero) .navbar .nav-links a:hover,
@@ -108,7 +104,7 @@ body:has(.hero) .navbar .nav-links a.active {
 }
 
 body:has(.hero) .navbar .nav-status {
-    color: #E5DCD4;
+    color: #F5F1E9;
 }
 
 .logo {
@@ -176,9 +172,9 @@ body:has(.hero) .navbar .nav-status {
     background-image:
         linear-gradient(
             to bottom,
-            rgba(35, 29, 26, 0.38) 0%,
-            rgba(35, 29, 26, 0.38) 60%,
-            rgba(185, 173, 161, 0.15) 82%,
+            rgba(23, 23, 23, 0.42) 0%,
+            rgba(23, 23, 23, 0.42) 60%,
+            rgba(214, 189, 145, 0.10) 82%,
             var(--bg) 100%
         ),
         url("../assets/images/hero-background.png");
@@ -205,7 +201,7 @@ body:has(.hero) .navbar .nav-status {
 
     background: radial-gradient(
         circle,
-        rgba(217, 165, 143, 0.14),
+        rgba(214, 189, 145, 0.14),
         transparent 70%
     );
 
@@ -225,7 +221,7 @@ body:has(.hero) .navbar .nav-status {
 }
 
 .hero .eyebrow {
-    color: #E5DCD4;
+    color: #F5F1E9;
 }
 
 .hero h1 {
@@ -235,7 +231,7 @@ body:has(.hero) .navbar .nav-status {
     letter-spacing: -8px;
     line-height: 0.92;
     margin-bottom: 35px;
-    color: #F5F0EA;
+    color: #F5F1E9;
 }
 
 .hero h1 span {
@@ -245,7 +241,7 @@ body:has(.hero) .navbar .nav-status {
 
 .hero-description {
     max-width: 460px;
-    color: #E0D6CD;
+    color: #E7DFD1;
     font-size: 14px;
     line-height: 2;
     letter-spacing: 0.2px;
@@ -282,7 +278,7 @@ body:has(.hero) .navbar .nav-status {
 }
 
 .btn-primary {
-    color: #F5F0EA;
+    color: #F5F1E9;
     background: var(--text);
     border: 1px solid var(--text);
 }
@@ -291,18 +287,18 @@ body:has(.hero) .navbar .nav-status {
     color: var(--text);
     background: transparent;
     transform: translateY(-3px);
-    box-shadow: 0 8px 30px rgba(48, 43, 40, 0.12);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.25);
 }
 
 .btn-secondary {
-    color: #F5F0EA;
+    color: #F5F1E9;
     border: 1px solid rgba(245, 240, 234, 0.55);
     background: transparent;
 }
 
 .btn-secondary:hover {
     color: #FFFFFF;
-    background: rgba(217, 165, 143, 0.2);
+    background: rgba(214, 189, 145, 0.20);
     border-color: var(--accent);
     transform: translateY(-3px);
 }
@@ -327,7 +323,7 @@ body:has(.hero) .navbar .nav-status {
 }
 
 .hero-bottom span {
-    color: #E0D6CD;
+    color: #E7DFD1;
     font-size: 9px;
     font-weight: 600;
     letter-spacing: 1.8px;
@@ -430,7 +426,7 @@ body:has(.hero) .navbar .nav-status {
     flex-direction: column;
     justify-content: space-between;
 
-    background: #96949A;
+    background: #41403D;
     border: 1px solid var(--border);
 
     transition: all 0.4s ease;
@@ -529,17 +525,17 @@ footer span {
     background:
         radial-gradient(
             circle at 30% 35%,
-            rgba(190, 165, 145, 0.38),
+            rgba(214, 189, 145, 0.25),
             transparent 45%
         ),
         radial-gradient(
             circle at 70% 40%,
-            rgba(217, 165, 143, 0.38),
+            rgba(214, 189, 145, 0.24),
             transparent 50%
         ),
         radial-gradient(
             circle at 50% 70%,
-            rgba(145, 125, 110, 0.30),
+            rgba(191, 164, 119, 0.25),
             transparent 50%
         );
 

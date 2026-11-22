@@ -38,8 +38,8 @@
 
     background: radial-gradient(
         circle,
-        rgba(217, 165, 143, 0.20),
-        rgba(160, 185, 205, 0.12),
+        rgba(214, 189, 145, 0.20),
+        rgba(214, 189, 145, 0.08),
         transparent 70%
     );
 
@@ -177,13 +177,13 @@
 
     background: linear-gradient(
         135deg,
-        #9EAFBC,
-        #7F96A8
+        #D6BD91,
+        #8C806B
     );
 
     border: 1px solid var(--border);
 
-    color: #263744;
+    color: #302D28;
     font-family: var(--font-heading);
     font-size: 42px;
     font-weight: 700;
@@ -197,8 +197,8 @@
 .project-card:hover .project-preview {
     background: linear-gradient(
         135deg,
-        #AFC0CB,
-        #8EA6B7
+        #E7DFD1,
+        #BFA477
     );
 
     border-color: var(--accent);
@@ -215,8 +215,8 @@
 .preview-second {
     background: linear-gradient(
         135deg,
-        #B9BFC2,
-        #8F9FA9
+        #B5B0A7,
+        #B5B0A7
     );
 
     font-size: 65px;
@@ -225,11 +225,11 @@
 .preview-third {
     background: linear-gradient(
         135deg,
-        #C7B8AD,
-        #A99489
+        #D6BD91,
+        #8C806B
     );
 
-    color: #493F3A;
+    color: #51483A;
     font-size: 20px;
     letter-spacing: 3px;
 }
@@ -277,7 +277,7 @@
     padding: 7px 11px;
 
     border: 1px solid var(--border);
-    background: rgba(217, 165, 143, 0.08);
+    background: rgba(214, 189, 145, 0.08);
 
     color: var(--muted);
     font-size: 11px;
@@ -292,7 +292,7 @@
 .project-card:hover .project-tech span {
     color: var(--text);
     border-color: var(--accent);
-    background: rgba(217, 165, 143, 0.15);
+    background: rgba(214, 189, 145, 0.15);
 }
 
 
